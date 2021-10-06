@@ -37,3 +37,10 @@ use-the-strings:	use-the-strings.c
 
 sql-injection-database.db:	sql-injection-database.sql
 	sqlite3 sql-injection-databse.db < sql-injection-database.sql
+
+fib100:
+	gcc -DTYPE_INT="long long int" -o fib100-64.out fib100.c
+	gcc -DTYPE_INT="int" -o fib100-32.out fib100.c
+
+whitespace:
+	ruby whitespace.rb whitespace.ws_.txt
