@@ -10,6 +10,8 @@ $ git clone https://github.com/tohrusaitoh/ctf.git
 
 ### FileによるCTFもどき
 
+[演習の際のテキスト](https://www.ei.fukui-nct.ac.jp/2020/11/19/linux-file-access-2020/)
+
 Linux のファイルコマンドに慣れるためのFileによるCTFもどき
 
 ディレクトリへのリンクで無限にディレクトリの中に入るPATH
