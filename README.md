@@ -1,6 +1,6 @@
-### CTF.git
+## CTF.git
 
-## tsaitoh が作った CTF 問題サーバのファイル群
+### tsaitoh が作った CTF 問題サーバのファイル群
 
 CTFの問題の準備
 ~~~
@@ -8,7 +8,7 @@ $ cd public_html
 $ git clone https://github.com/tohrusaitoh/ctf.git
 ~~~
 
-# FileによるCTFもどき
+### FileによるCTFもどき
 
 Linux のファイルコマンドに慣れるためのFileによるCTFもどき
 
@@ -19,7 +19,7 @@ $ cd /home/
 $ sudo tar zxvf ..PATH../ctf/Challenge.tar.gz
 ~~~
 
-# telnet localhost echo の準備
+### telnet localhost echo の準備
 
 ~~~
 ((( inetd インストール)))
