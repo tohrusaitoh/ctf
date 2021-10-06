@@ -28,7 +28,7 @@ cat,ls,less,lv,more,nkf を置いてある。これに引っかかるように�
 演習参加者の .bashrc には、以下を仕込んでおく。
 ~~~
 # もし file:PathTrap があったら、危険なPATHになるように設定
-if [ -r /home0/Challenge/PathTrap ]; then
+if [ -r ..PATH../Challenge/PathTrap ]; then
     export PATH=.:/usr/bin:/bin
 fi
 ~~~
