@@ -31,6 +31,15 @@ push:;		git push
 pull:;		git pull
 #--------------------------------------------
 
+rot13:
+	tr A-Za-z N-ZA-Mn-za-m < simple-encryption.txt 
+fib100:
+	gcc -DTYPE_INT="long long int" -o fib100-64.out fib100.c
+	gcc -DTYPE_INT="int" -o fib100-32.out fib100.c
+	./fib100-64.out
+whitespace:
+	ruby whitespace.rb whitespace.ws_.txt
+
 use-the-strings:	use-the-strings.c
 	gcc    -O2 -o use-the-strings     use-the-strings.c
 	gcc -g -O2 -o use-the-strings-gdb use-the-strings.c
@@ -38,9 +47,4 @@ use-the-strings:	use-the-strings.c
 sql-injection-database.db:	sql-injection-database.sql
 	sqlite3 sql-injection-databse.db < sql-injection-database.sql
 
-fib100:
-	gcc -DTYPE_INT="long long int" -o fib100-64.out fib100.c
-	gcc -DTYPE_INT="int" -o fib100-32.out fib100.c
 
-whitespace:
-	ruby whitespace.rb whitespace.ws_.txt
