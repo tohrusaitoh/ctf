@@ -1,0 +1,6 @@
+<Files ~ "\.(bak|csv)$">
+allow from all
+AddType text/plain .bak
+AddType text/plain .csv
+AddType text/plain .txt
+</Files>
