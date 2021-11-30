@@ -18,6 +18,10 @@ if ( $pw == $ans ) {
 } else {
    print "<b><font color='blue'><br/>\nWrong FLAG{".$pw."} 不正解です。\n</br></font></b>" ;
 }
+if ( $pw == "" ) {
+   print "正解の場合は、Correct FLAG{...} と表示されます。<br />" ;
+   print "ヒント：普通のサイト管理者なら、<font color='red'>8000回</font>ぐらい連続アクセスされると、攻撃されたと誤認しちゃうよな。頼むから script 書くときはこのヒントよく読んでね。" ;
+}
 ?>
 </form>
 <p>

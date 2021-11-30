@@ -29,7 +29,7 @@
    }
   </script>
  </head>
- <body onload="main('Vopxo jt b Qtzdijd uzqf Qplfnpo! GMBH jt vopxo! Dbo zpv sfbe uijt?');">
+ <body onload="main('Vopxo jt b Qtzdijd uzqf Qplfnpo! GMBH jt vopxo ! Dbo zpv sfbe uijt?');">
    <!-- $ echo "hoge" | tr a-z b-za | tr A-Z B-ZA -->
    <h1>なぞのもじ</h1>
    <div id="uarea">

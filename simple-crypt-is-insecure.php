@@ -28,6 +28,9 @@ if ( $pw == $ans ) {
 } else {
    print "<b><font color='blue'><br/>\nWrong FLAG{".$pw."} 不正解です。\n</br></font></b>" ;
 }
+if ( $pw == "" ) {
+   print "正解の場合は、Correct FLAG{...} と表示されます。<br />" ;
+}
 ?>
 </form>
 <p>
