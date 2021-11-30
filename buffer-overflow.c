@@ -9,6 +9,7 @@ int main() {
   gets( buff ) ;
 
   if ( flag ) {
+    // strings コマンド対策 bit反転文字列で保存
     char str[] = {
       'F' % 0xFF ,
       'L' % 0xFF ,
