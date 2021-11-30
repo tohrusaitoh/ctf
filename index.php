@@ -29,6 +29,7 @@ $answer = array(
     // OS系
     "6.1" => "FLAG{UseTheStrings}" ,
     "6.2" => "FLAG{whitespace}" ,
+    "6.3" => "FLAG{LoveOverflows}" ,
 ) ;
 
 $hint = array(
@@ -64,6 +65,7 @@ $hint = array(
     "6.1" => "コマンドでさくっとやっちゃうか、ディープに逆アセンブル？"
     			."(要strings or 逆アセンブラ+バイナリエディタ)" ,
     "6.2" => "プログラムが書いてあります。見えますか？読めますか？" ,
+    "6.3" => "このプログラムをコンパイルしたらgetsを使うな...って言われた。" ,
 ) ;
 
 $thanx = array(
@@ -95,6 +97,7 @@ $thanx = array(
     // OS系
     "6.1" => "Good Job!!" ,
     "6.2" => "Good Job!!" ,
+    "6.3" => "バッファオーバーフローは、ウィルスなどを実行させる手段でよく使われているので、対策が重要です。" ,
 ) ;
 
 $ANS = isset( $_REQUEST["A"] ) ? $_REQUEST["A"] : "" ;
@@ -256,6 +259,7 @@ $ans_select .= "</select>\n" ;
 			<li><a name="6.1">6.1</a> <a href="use-the-strings">プログラムを動かして情報を探せ</a>(elf-x86-64)<br />
                        <a href="use-the-strings-gdb">(elf-x86-64-gdb)</a></li>
             <li><a name="6.2">6.2</a> <a href="whitespace.ws_.txt">言語オタクにしか読めない</a></li>
+                                             <li><a name="6.3">6.3</a> <a href="buffer-overflow">プログラムを動かして情報を探せ(2)</a>(elf-x86-64)</li>
 		</ul>
 		<blockquote>
 			ウィルスやマルウェアなどの被害が発生したときは、

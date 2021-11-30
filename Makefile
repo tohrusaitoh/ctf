@@ -47,4 +47,6 @@ use-the-strings:	use-the-strings.c
 sql-injection-database.db:	sql-injection-database.sql
 	sqlite3 sql-injection-databse.db < sql-injection-database.sql
 
+buffer-overflow:	buffer-overflow.c
+	gcc -o buffer-overflow buffer-overflow.c
 
