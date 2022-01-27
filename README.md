@@ -42,7 +42,8 @@ $ sudo vi /etc/inetd.conf
 echo stream tcp nowait <<USERID>> ..PATH../ctf/inetd-echo.sh
 
 ((( inetd 再起動 )))
-$ sudo systemctl restart inetutils-inetd
+$ ps ax | grep inetutils-inetd
+$ sudo kill -HUP inetutils-inetd のプロセス番号
 
 ((( 接続実験 )))
 $ telnet localhost echo
