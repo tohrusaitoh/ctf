@@ -50,3 +50,5 @@ sql-injection-database.db:	sql-injection-database.sql
 buffer-overflow:	buffer-overflow.c
 	gcc -o buffer-overflow buffer-overflow.c
 
+File0000.zip:
+	zip File0000.zip File0000.chk
