@@ -52,3 +52,9 @@ buffer-overflow:	buffer-overflow.c
 
 File0000.zip:
 	zip File0000.zip File0000.chk
+
+what-is-the-river-called.jpg:
+	bash what-is-the-river-called.sh
+
+what-is-this-camera-called.jpg:
+	bash what-is-this-camera-called.sh
