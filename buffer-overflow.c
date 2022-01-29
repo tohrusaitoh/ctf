@@ -3,12 +3,18 @@
 #include <stdio.h>
 
 int main() {
-  char buff[ 10 ] ;
-  int  flag = 0 ;
-  printf( "Type any string <enter>:" ) ;
-  gets( buff ) ;
+  struct Data {
+    char buff[ 10 ] ;
+    int  flag ;
+  } data = {
+    "" ,
+    0
+  } ;
 
-  if ( flag ) {
+  printf( "Type any string <enter>:" ) ;
+  gets( data.buff ) ;
+
+  if ( data.flag ) {
     // strings コマンド対策 bit反転文字列で保存
     char str[] = {
       'F' ^ 0xFF ,
@@ -36,7 +42,7 @@ int main() {
       putchar( str[i] ^ 0xFF ) ;
     printf( "\n" ) ;
   } else {
-    printf( "You enter %s\n" , buff ) ;
+    printf( "You enter %s\n" , data.buff ) ;
   }
   return 0 ;
 }

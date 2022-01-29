@@ -33,10 +33,12 @@ pull:;		git pull
 
 rot13:
 	tr A-Za-z N-ZA-Mn-za-m < simple-encryption.txt 
+
 fib100:
 	gcc -DTYPE_INT="long long int" -o fib100-64.out fib100.c
 	gcc -DTYPE_INT="int" -o fib100-32.out fib100.c
 	./fib100-64.out
+
 whitespace:
 	ruby whitespace.rb whitespace.ws_.txt
 
