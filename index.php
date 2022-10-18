@@ -231,6 +231,7 @@ $ans_select .= "</select>\n" ;
 			<li><a name="3.3">3.3</a> <a href="sql-injection.php">SQLの基本</a></li>
             <li><a name="3.4">3.4</a> <a href="eat-real-cookie.php">本当のクッキーを食べさせて</a></li>
             <li><a name="3.5">3.5</a> <a href="you-already-know.php">あなたは既に答えを受け取っている</a></li>
+			<li><a name="3.6">3.6</a> <a href="i-love-netscape-agent.php">あなたはどんな端末からアクセスしていますか?</a></li>
 		</ul>
 		<blockquote>
 			最近のHTTPを基本とするWebプログラムでは、情報漏洩などの危険性を意識してプログラムを作る必要がある。
