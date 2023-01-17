@@ -253,7 +253,7 @@ $ans_select .= "</select>\n" ;
 		<h3>5. インターネット系</h3>
 		<ul>
 			<li><a name="5.1">5.1</a> capture-the-flag.tsaitoh.net というドメインの flag=XXXXX という形式の情報を FLAG{XXXXX} 形式で答えよ</li>
-<li><a name="5.2">5.2</a> <a href="i-like-this-noodle.jpg">うしろを見ろ(答えはローマ字小文字 FLAG{xxx} .com とする)</a></li>
+<li><a name="5.2">5.2</a> <a href="i-like-this-noodle.jpg">うしろを見ろ(答えはローマ字小文字 FLAG{xxx} .co.jp とする)</a></li>
 		</ul>
 		<h3>6. OS系</h3>
 		<ul>

@@ -9,7 +9,7 @@ $agent = $_SERVER[ "HTTP_USER_AGENT" ] ;
 </head>
 <body>
 <h1>I Like Netscape Agent</h1>
-<?php if ( preg_match( "/^Netscape/i" , $agent ) ) : ?>
+<?php if ( preg_match( "/Netscape/i" , $agent ) ) : ?>
 <h2>FLAG{I-Love-Nescape}</h2>
 <?php else : ?>
 <?php print htmlspecialchars( $agent ) ; ?>
