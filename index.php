@@ -18,6 +18,7 @@ $answer = array(
     "3.4" => "FLAG{EatRealCookie}" ,
     "3.5" => "FLAG{YouAreShock!}" ,
     "3.6" => "FLAG{I-Love-Netscape}" ,
+    "3.7" => "FLAG{CorrectSpellIsReferrer}" ,
     // プログラム作成系
     "4.1" => "FLAG{SOS}" ,
     "4.2" => "FLAG{9261915075}" ,
@@ -53,6 +54,7 @@ $hint = array(
     "3.5" => "HTTP プロトコルではどういう情報がやりとりされているでしょうか？"
         			."(要telnet ^_^)" ,
     "3.6" => "UserAgentはブラウザの種別を確認する。" ,
+    "3.7" => "Refererについて調べてみよう。" ,
     // プログラム作成系
     "4.1" => "電波な人を連れてくるか、変換プログラムを組むしかないかな。" ,
     "4.2" => "手際良くプログラムを書きましょう。普通に書くと桁溢れしちゃうよ。" ,
@@ -232,6 +234,7 @@ $ans_select .= "</select>\n" ;
             <li><a name="3.4">3.4</a> <a href="eat-real-cookie.php">本当のクッキーを食べさせて</a></li>
             <li><a name="3.5">3.5</a> <a href="you-already-know.php">あなたは既に答えを受け取っている</a></li>
 			<li><a name="3.6">3.6</a> <a href="i-love-netscape-agent.php">あなたはどんな端末からアクセスしていますか?</a></li>
+			<li><a name="3.7">3.7</a> <a href="no-referer.php">直接アクセスしてね</a></li>
 		</ul>
 		<blockquote>
 			最近のHTTPを基本とするWebプログラムでは、情報漏洩などの危険性を意識してプログラムを作る必要がある。

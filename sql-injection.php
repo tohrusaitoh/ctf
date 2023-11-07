@@ -23,6 +23,7 @@ Enter ID<input type="text" name="id" /><input type="submit" />
          //print htmlspecialchars($sql)."\n" ;
          print "select * from ID_Profile where id='<span style=\"background-color:pink;\">".htmlspecialchars($id)."</span>' ;\n" ;
          if ( ($query = $db->query( $sql )) !== FALSE ) {
+	     //print htmlspecialchars($sql)."\n" ;
              while( ($result = $query->fetch( PDO::FETCH_NUM )) !== FALSE ) {
                  printf( "%d %s %s\n" , ++$count , $result[0] , $result[1] ) ;
              }

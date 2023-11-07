@@ -12,7 +12,15 @@ int main() {
   } ;
 
   printf( "Type any string <enter>:" ) ;
+#if 1
   gets( data.buff ) ;
+#else
+  fgets( stdin , data.buff , sizeof( data ) ) ;
+  {
+    int c ;
+    while( (c = getchar()) != '\n' ) ;
+  }
+#endif
 
   if ( data.flag ) {
     // strings コマンド対策 bit反転文字列で保存
