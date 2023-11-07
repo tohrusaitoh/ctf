@@ -6,9 +6,11 @@ int main() {
   struct Data {
     char buff[ 10 ] ;
     int  flag ;
+    char dummy[ 4096 ] ;
   } data = {
     "" ,
-    0
+    0 ,
+    ""
   } ;
 
   printf( "Type any string <enter>:" ) ;
@@ -16,10 +18,6 @@ int main() {
   gets( data.buff ) ;
 #else
   fgets( stdin , data.buff , sizeof( data ) ) ;
-  {
-    int c ;
-    while( (c = getchar()) != '\n' ) ;
-  }
 #endif
 
   if ( data.flag ) {
